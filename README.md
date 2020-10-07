@@ -1,4 +1,5 @@
-# Getting Started
+# This repo will spin up two containers using podman to learn ansible with.
+### Getting Started
 *   ```
     ./build-containers.sh
     ./launch-containers.sh
@@ -14,3 +15,7 @@ OR
 ```
 ansible-playbook local.yml --step --start-at-task='hello'
 ```
+
+Thanks to the fine Puppet Bolt team for providing the Dockerfile for this https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html.
+
+If you haven't checked out Puppet Bolt it's a great tool worth your time. I plan on going through the same process with it as I am with Ansible.
