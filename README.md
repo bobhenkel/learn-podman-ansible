@@ -15,6 +15,10 @@ OR
 ```
 ansible-playbook local.yml --step --start-at-task='hello'
 ```
+Clean up
+```
+./destroy-containers.sh
+```
 
 Thanks to the fine Puppet Bolt team for providing the Dockerfile for this https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html.
 
